@@ -31,7 +31,7 @@
 
 .over-play-hire {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
 width: 100%;
 height: 100%;
 z-index:2;
@@ -68,7 +68,7 @@ z-index:2;
            font-size: 4rem;
     }
     .over-play-hire {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
 }
  }
 .name-hire h2,h4{

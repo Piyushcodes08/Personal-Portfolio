@@ -31,10 +31,10 @@
 
 .over-play {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
 width: 100%;
 height: 100%;
-z-index:2;
+z-index:10000;
 }
 .name{
     display: flex;
@@ -68,7 +68,7 @@ z-index:2;
            font-size: 3rem;
     }
     .over-play {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
 }
  }
 .name h2,h4{
