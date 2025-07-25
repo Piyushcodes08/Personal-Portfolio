@@ -19,7 +19,7 @@ const About = () => {
                                     autoPlay
                                     playsInline
                                 >
-                                    <source src='public/bg-img/about-bg.mp4' />
+                                    <source src='/bg-img/about-bg.mp4' />
                                 </video>
 
                                 <div className="about-text">
