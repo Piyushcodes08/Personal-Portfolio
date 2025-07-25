@@ -26,7 +26,7 @@ const Contact = () => {
                       <Col md={6}>
                         <div className="name-hire text-white">
                           <h1>Hire Me</h1>
-                          <h2>Available for Freelance, Internship or Full-time</h2>
+                          <h2>Available for Freelance or Full-time</h2>
                           <h5>
                             I’m a passionate frontend developer skilled in React, Bootstrap & creative problem solving.
                             Let’s build something amazing together!
