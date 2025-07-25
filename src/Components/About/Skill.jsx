@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../About/Skill.css';
-import bgVideo from '../../assets/bg-img/about-bg2.mp4';
+
 
 const Skill = () => {
   const skills = [
@@ -25,10 +25,7 @@ const Skill = () => {
       name: 'Tailwind CSS',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg',
     },
-    //  {
-    //   name: 'HTML5',
-    //   icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
-    // },
+    
      {
       name: 'CSS3',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',

@@ -19,7 +19,7 @@ const Projects = () => {
                   autoPlay
                   playsInline
                 >
-                  <source src="src/assets/bg-img/project-bg.mp4" />
+                  <source src="public/bg-img/project-bg.mp4" />
                 </video>
                 <div className="over-play">
                   <Container>
@@ -52,7 +52,7 @@ const Projects = () => {
                   autoPlay
                   playsInline
                 >
-                  <source src="src/assets/bg-img/project-right-bg.mp4" />
+                  <source src="/bg-img/project-right-bg.mp4" />
                 </video>
                 <div className="over-play">
                   <Container>

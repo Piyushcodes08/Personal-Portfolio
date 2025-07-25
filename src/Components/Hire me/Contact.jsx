@@ -18,7 +18,7 @@ const Contact = () => {
                   autoPlay
                   playsInline
                 >
-                  <source src="src/assets/bg-img/about-bg2.mp4" type="video/mp4" />
+                  <source src="/bg-img/about-bg2.mp4" type="video/mp4" />
                 </video>
                 <div className="over-play-hire">
                   <Container className="h-100">

@@ -19,7 +19,7 @@ const About = () => {
                                     autoPlay
                                     playsInline
                                 >
-                                    <source src='src/assets/bg-img/about-bg.mp4' />
+                                    <source src='public/bg-img/about-bg.mp4' />
                                 </video>
 
                                 <div className="about-text">
@@ -57,7 +57,7 @@ const About = () => {
                                     autoPlay
                                     playsInline
                                 >
-                                    <source src='src/assets/bg-img/about-bg3.mp4' />
+                                    <source src='/bg-img/about-bg3.mp4' />
                                 </video>
 
                                 <div className="about-text">
@@ -71,7 +71,7 @@ const About = () => {
                                                     loop
                                                     playsInline
                                                 >
-                                                    <source src='src/assets/bg-img/about -right-bg.mp4' />
+                                                    <source src='/bg-img/about -right-bg.mp4' />
                                                 </video>
                                             </Col>
 

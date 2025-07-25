@@ -20,7 +20,7 @@ const Home = () => {
                   autoPlay
                   playsInline
                 >
-                  <source src="src/assets/bg-img/home-bg.mp4" />
+                  <source src="/bg-img/home-bg.mp4" />
                 </video>
                 <div className="over-play">
                   <Container>
