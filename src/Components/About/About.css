@@ -1,0 +1,114 @@
+.about {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.about-section {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.about-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.about-text {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.about-text-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 75px;
+    z-index: 3;
+}
+
+.about-text-left h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'font3';
+    text-align: start;
+}
+
+.about-text-left h6,
+.about-text-right h6 {
+    font-family: 'font2';
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: start;
+}
+
+.about-text-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+    gap: 10px;
+    padding-top: 55px;
+    z-index: 3;
+    color: #fff;
+    position: relative;
+}
+
+.about-bg-right {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+    .about-text {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .about-text-left,
+    .about-text-right {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .about-text-left h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .about-text-right h6 {
+        margin-top: 2rem;
+    }
+
+    .about-bg-right {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+        position: static;
+        margin-top: -3rem;
+    }
+}
