@@ -1,11 +1,12 @@
 import React from 'react';
 import '../Hire me/Contact.css';
 import { Col, Container, Row } from 'react-bootstrap';
+import bg2 from '/bg-img/about-bg2.mp4'
+
 
 const Contact = () => {
   return (
     <>
-      {/* Section with background video */}
       <div className="section-hire py-md-3 px-md-2">
         <Container fluid className="h-100">
           <Row className="h-100">
@@ -18,7 +19,7 @@ const Contact = () => {
                   autoPlay
                   playsInline
                 >
-                  <source src="/bg-img/about-bg2.mp4" type="video/mp4" />
+                  <source src={bg2} type="video/mp4" />
                 </video>
                 <div className="over-play-hire">
                   <Container className="h-100">
@@ -41,8 +42,6 @@ const Contact = () => {
           </Row>
         </Container>
       </div>
-
-      {/* Contact call-to-action section */}
       <section className='contact'>
         <div className="container text-center text-white">
           <h2 className="mb-3">Interested in Working Together?</h2>

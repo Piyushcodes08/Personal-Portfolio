@@ -2,7 +2,7 @@ import React from 'react';
 import '../Home/Home.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import Section2 from '/src/Components/Home/Section2.jsx';
-
+import bg from "/bg-img/project-bg.mp4"
 
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
                   autoPlay
                   playsInline
                 >
-                  <source src="/bg-img/project-bg.mp4" />
+                  <source src={bg} />
                 </video>
                 <div className="over-play">
                   <Container>

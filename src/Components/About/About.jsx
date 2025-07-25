@@ -1,7 +1,10 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import '../About/About.css'
-import Skill from './Skill'
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import '../About/About.css';
+import Skill from './Skill';
+import bg1 from '/bg-img/about-bg.mp4';
+import bg2 from '/bg-img/about-bg3.mp4';
+
 
 const About = () => {
     return (
@@ -19,7 +22,7 @@ const About = () => {
                                     autoPlay
                                     playsInline
                                 >
-                                    <source src='/bg-img/about-bg.mp4' />
+                                    <source src={bg1} />
                                 </video>
 
                                 <div className="about-text">
@@ -57,7 +60,7 @@ const About = () => {
                                     autoPlay
                                     playsInline
                                 >
-                                    <source src='/bg-img/about-bg3.mp4' />
+                                    <source src={bg2} />
                                 </video>
 
                                 <div className="about-text">

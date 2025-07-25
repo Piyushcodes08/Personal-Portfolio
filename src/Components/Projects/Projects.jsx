@@ -3,6 +3,8 @@ import '../Home/Home.css';
 import '../Projects/Projects.css'
 import { Col, Container, Row } from 'react-bootstrap';
 import Projectlist from './Projectlist';
+import bg1 from '/bg-img/home-bg.mp4'
+import bg2 from '/bg-img/project-right-bg.mp4'
 
 const Projects = () => {
   return (
@@ -19,7 +21,7 @@ const Projects = () => {
                   autoPlay
                   playsInline
                 >
-                  <source src="/bg-img/home-bg.mp4" />
+                  <source src={bg1} />
                 </video>
                 <div className="over-play">
                   <Container>
@@ -52,7 +54,7 @@ const Projects = () => {
                   autoPlay
                   playsInline
                 >
-                  <source src="/bg-img/project-right-bg.mp4" />
+                  <source src={bg2} />
                 </video>
                 <div className="over-play">
                   <Container>
