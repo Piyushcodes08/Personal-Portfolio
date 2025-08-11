@@ -10,17 +10,17 @@ const Projectlist = () => {
         </p>
 
         <Row className="g-4 justify-content-center">
-          {/* Project 1 */}
+ {/* Project 2 */}
           <Col xs={12} md={6}>
             <Card bg="dark" text="white" className="h-100 shadow">
               <Card.Body>
-                <Card.Title>Restaurant Food Website</Card.Title>
+                <Card.Title>Trawind Tours and Travel Agency</Card.Title>
                 <Card.Text>
-                  A modern restaurant website built with React and Bootstrap showing menu items and a clean layout.
+                "Trawind is a modern travel website built using React and Custom CSS.
                 </Card.Text>
                 <Button
-                  // variant="primary"
-                  href="https://restaurant-food-three.vercel.app/"
+                 
+                  href="https://trawind.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -34,13 +34,33 @@ const Projectlist = () => {
           <Col xs={12} md={6}>
             <Card bg="dark" text="white" className="h-100 shadow">
               <Card.Body>
-                <Card.Title>Food Delivery UI</Card.Title>
+                <Card.Title> Food Delivery UI</Card.Title>
+                <Card.Text>
+                  A modern restaurant website built with React and Bootstrap showing menu items and a clean layout.
+                </Card.Text>
+                <Button
+                  // variant="primary"
+                  href="https://new-burger.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Project
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          {/* Project 3 */}
+          <Col xs={12} md={6}>
+            <Card bg="dark" text="white" className="h-100 shadow">
+              <Card.Body>
+                <Card.Title>Restaurant Food Website</Card.Title>
                 <Card.Text>
                   A responsive food delivery app UI built with React and Bootstrap featuring categories and clean design.
                 </Card.Text>
                 <Button
                   // variant="primary"
-                  href="https://food-delivery-coral-nine.vercel.app/"
+                  href="https://resfoodwebsite.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

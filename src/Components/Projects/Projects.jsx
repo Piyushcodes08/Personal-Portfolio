@@ -28,7 +28,7 @@ const Projects = () => {
                     <Row>
                       <Col md={6}>
                         <div className="project-name text-white pb-4">
-                          <h1 className="text-uppercase">My Projects, Meri Pehchaan 💻</h1>
+                          <h1 className="text-uppercase">My Projects, Meri Pehchaan </h1>
                         </div>
                       </Col>
                     </Row>

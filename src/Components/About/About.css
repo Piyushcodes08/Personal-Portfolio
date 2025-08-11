@@ -56,6 +56,7 @@
     font-size: 18px;
     line-height: 1.7;
     text-align: start;
+
 }
 
 .about-text-right {
@@ -100,8 +101,17 @@
         font-weight: 700;
     }
 
+    .about-text-left h6,
     .about-text-right h6 {
         margin-top: 2rem;
+
+
+
+        
+
+   /* justify-content: ; */
+    text-align:justify;
+
     }
 
     .about-bg-right {
