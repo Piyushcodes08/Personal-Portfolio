@@ -10,6 +10,26 @@ const Projectlist = () => {
         </p>
 
         <Row className="g-4 justify-content-center">
+ {/* Project 1 */}
+          <Col xs={12} md={6}>
+            <Card bg="dark" text="white" className="h-100 shadow">
+              <Card.Body>
+                <Card.Title>Software Company</Card.Title>
+                <Card.Text>
+               “Softwaare: A modern travel solutions platform built with React, Tailwind CSS, and Vite, offering responsive and interactive user experiences.”
+                </Card.Text>
+                <Button
+                 
+                  href="https://softwaare.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Project
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+
  {/* Project 2 */}
           <Col xs={12} md={6}>
             <Card bg="dark" text="white" className="h-100 shadow">
@@ -30,7 +50,7 @@ const Projectlist = () => {
             </Card>
           </Col>
 
-          {/* Project 2 */}
+          {/* Project 3 */}
           <Col xs={12} md={6}>
             <Card bg="dark" text="white" className="h-100 shadow">
               <Card.Body>
