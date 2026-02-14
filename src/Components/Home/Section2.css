@@ -5,6 +5,7 @@
   align-items: center;
   font-family: 'font1';
   perspective: 1500px;
+  overflow: hidden;
 }
 .text2 h1{
    font-size:  clamp(10rem, 35vw, 40rem);
